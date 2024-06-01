@@ -6,5 +6,6 @@
 - h1 {
      color: black;
    }
--h1 - selector, color - property, blue - value
+- `h1` - selector, `color` - property, `blue` - value
+- If same classname having different styles, it will take `lowest` classname style 
 
