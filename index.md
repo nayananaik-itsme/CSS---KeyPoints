@@ -2,30 +2,35 @@
 
 - **CSS** - Cascading Style Sheet
 - CSS is not a programming language; it is style for content of a webpage.
-- Row are building block of CSS
-- h1 {
-     color: black;
-   }
-- `h1` - selector, `color` - property, `blue` - value
-- If same classname having different styles, it will take `lowest` classname style
-- If one selector having classes then it takes that style.
-- Classname is more specific than tags, class style override tag's style
-- Id is more specific than classname, will represent like #idname {}
-- !important is override Id, important use is not a good practice
+- Rules are the building blocks of CSS
+- Example of a CSS rule:
+  ```css
+  h1 {
+    color: black;
+  }
 
+- `h1` - selector, `color` - property, `blue` - value
+- If the same class name has different styles, it will take the last defined class name style.
+- If one selector has multiple classes, it takes that style.
+- Class name is more specific than tags; class style overrides tag's style.
+- ID is more specific than class name and is represented like `#idname {}`.
+- `!important` overrides ID, but using `!important` is not good practice.
 ## Pseudo class
 - Representation is :
-- <ol>
-     <li classname="example">
-         zero 
-     </li>
-     <li classname="example">
-          one
-     </li>
+```html
+<ol>
+    <li class="example">
+        zero 
+    </li>
+    <li class="example">
+        one
+    </li>
 </ol>
-- .example:first-child{
-      color: red;
-      }
+- Example of a pseudo-class:
+```css
+.example:first-child {
+    color: red;
+}
 -:focus,:active,: visited, :link are examples
 
 
