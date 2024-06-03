@@ -35,6 +35,26 @@
 - :focus,:active,: visited, :link are examples
 
 
-###Pseudo Elements
+### Pseudo Elements
 - :: - Repesentation
 - ::after, ::before -examples
+
+#### Box-Model or Layout
+
+- **Display Types**
+- Block and Inline Block
+- Flex and Inline Flex
+- Grid and Inline Grid
+
+  
+- Margin is space outside of element between it and other elements
+- Inside border is padding, spacing inside the element
+- ```Flex
+  display: flex;
+  justify-content: flex-end,center, space-between, space-around
+  flex-direction: column, row;
+
+  display: grid;
+  grid-template-column: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 20px;
