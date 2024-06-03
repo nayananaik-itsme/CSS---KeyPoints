@@ -15,23 +15,24 @@
 - Class name is more specific than tags; class style overrides tag's style.
 - ID is more specific than class name and is represented like `#idname {}`.
 - `!important` overrides ID, but using `!important` is not good practice.
+  
 ## Pseudo class
 - Representation is :
-```html
-<ol>
-    <li class="example">
-        zero 
-    </li>
-    <li class="example">
-        one
-    </li>
-</ol>
+  ```html
+  <ol>
+      <li class="example">
+          zero 
+      </li>
+      <li class="example">
+          one
+      </li>
+  </ol>
 - Example of a pseudo-class:
-```css
-.example:first-child {
-    color: red;
-}
--:focus,:active,: visited, :link are examples
+  ```css
+  .example:first-child {
+      color: red;
+  }
+- :focus,:active,: visited, :link are examples
 
 
 ###Pseudo Elements
